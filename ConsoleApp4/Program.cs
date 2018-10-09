@@ -37,7 +37,7 @@ namespace ConsoleApp4
                 Console.WriteLine("Perimeter: " + roomPerimeter);
 
                 Console.WriteLine("Continue? (y/n)");
-                string contInput = Console.ReadLine();
+                string contInput = Console.ReadLine().ToLower();
 
                 if (contInput == "n")
                 {
